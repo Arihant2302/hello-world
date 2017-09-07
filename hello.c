@@ -3,8 +3,9 @@
 
 int main(void)
 {
+    string n = get_string("Enter Name: ");
     for (int i = 0; i < 3; i++)
     {
-        printf("Hello, World\n");
+        printf("Hello, %i\n", n);
     }
 }
