@@ -6,6 +6,6 @@ int main(void)
     string n = get_string("Enter Name: ");
     for (int i = 0; i < 3; i++)
     {
-        printf("Hello, %i\n", n);
+        printf("Hello, %s\n", n);
     }
 }
